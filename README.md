@@ -1,5 +1,5 @@
 # vml-in-email
-Some vml components for email
+Some vml components for email (still in progress)
 
 
 Examples of vml-encoded components are rather rare on the web. 
