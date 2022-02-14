@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml"  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title></title>
+<!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+<!-- CSS Reset : BEGIN -->
+<!--[if (gte mso 9)|(IE)]>
+<style>
+* {
+font-family: Arial, sans-serif !important;
+}
+</style>
+<![endif]-->
+<style>
+:root {
+    color-scheme: light;
+    supported-color-schemes: light;
+}
+html,
+body {
+    margin: 0 auto !important;
+    padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+ /* center email on Android 4.4 - margin reset */
+div[style*="margin: 16px 0"] {
+    margin: 0 !important;
+}
+table,
+td {
+    mso-table-lspace: 0pt !important;
+    mso-table-rspace: 0pt !important;
+}
+table {
+    border-spacing: 0 !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+    margin: 0 auto !important;
+    mso-table-lspace:0;
+    mso-table-rspace:0; 
+}
+  /*La poste hack*/
+  h2,h3{
+    padding:0;
+    margin:0;
+    border:0;
+    background:none;
+  }
+</style>
+<!--[if (mso)>
+<style type="text/css">
+a {
+    text-decoration: none;
+    }
+</style>
+<![endif]--> 
+<style>
+  /* Fix for Outlook links color fix for links and visited links */
+span.MsoHyperlink {
+  color: inherit !important;
+  mso-style-priority: 99 !important;
+}
+
+span.MsoHyperlinkFollowed {
+  color: inherit !important;
+  mso-style-priority: 99 !important;
+      }
+  /*  Apple Mail / iOS Mail apps */
+#root [x-apple-data-detectors=true],
+a[x-apple-data-detectors=true],
+[x-apple-data-detectors-type="calendar-event"]{
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    -webkit-text-decoration-color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+/*Gmail*/
+u + .body a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  }
+
+/*Samsung Mail*/
+#MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+</style>
+
+<style>
+.btn-td,
+.btn-a {
+    transition: all 100ms ease-in;
+}
+
+.btn-td-primary:hover,
+.btn-a-primary:hover {
+    background: #414A8B !important;
+    border-color: #414A8B !important;
+}
+
+.btn-td-white:hover,
+.btn-a-white:hover {
+    background: #F7F7F7 !important;
+    color: #525ca3 !important;
+    border-color: #F7F7F7 !important;
+}
+
+.m-content {
+    display: none !important;
+    max-height: none !important;
+    mso-hide: all !important;
+    height: 0 !important;
+}
+</style>
+<style>
+@media screen and (max-width: 680px) {
+
+    .cc-column,
+    .cc-column-center {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      direction: ltr !important;
+    }
+
+    .cc-column table {
+      height: auto !important;
+    }
+
+    .cc-column img {
+      max-width: 100% !important;
+    }
+
+    .cc-column-center {
+      text-align: center !important;
+    }
+
+    .d-content {
+      display: none !important;
+      height: 0 !important;
+    }
+
+    .m-content {
+      display: block !important;
+      width: auto !important;
+      max-height: none !important;
+      overflow: visible !important;
+      height: 100% !important;
+    }
+
+    .cc-on-narrow {
+      text-align: center !important;
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      float: none !important;
+    }
+
+    table.cc-on-narrow {
+      display: inline-block !important;
+    }
+
+    /*SPECIFIC CSS: END*/
+  }
+</style>
+<style>
+.cc-half{
+  width: 100% !important;
+  max-width:330px !important;
+}
+.cc-third{
+  width: 100% !important;
+  max-width:220px !important;
+}
+.cc-two-third{
+  width: 100% !important;
+  max-width:440px !important;
+}
+.cc-fourth{
+  width: 100% !important;
+  max-width:25% !important;
+}
+@media screen and (max-width:680px){
+ .cc-half,
+ .cc-third,
+ .cc-two-third,
+ .cc-fourth{      
+      width: 100% !important;
+      max-width:680px !important;
+    }
+  }
+</style>
+<!--[if mso]>
+<style type="text/css">
+  li {margin-left:-23px !important}
+</style>
+<![endif]-->
+<style>
+ul {
+  padding-left: 17px;
+}
+ol {
+  padding-left: 20px;
+}
+</style>
+<!--[if mso]>
+<style type="text/css">
+  .btn{background:transparent !important;border:none !important}
+  table {border-collapse: collapse;}
+</style>
+<![endif]-->
+<!--[if gte mso 16]>
+    <style>
+        .force-white {
+            mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#FFFFFF 0 100000\,100000 \#FFFFFF 0 100000";
+            color:#000000 !important;
+        }
+        .force-black {
+         mso-style-textfill-type:gradient;
+            mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 1 100000\,99000 \#000000 1 100000";
+            color:#ffffff !important;
+        }
+    </style>
+<![endif]-->
+</head>
+  <body style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly;background-color: #F2F2F2;">
+    <center role="article" aria-roledescription="email" lang="fr" style="width: 100%;background-color: #F2F2F2;">
+      <!--[if (gte mso 9)|(IE)]>
+      <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #F2F2F2;">
+        <tr>
+          <td>
+            <![endif]-->
+            <!-- Texte de pré-en-tête masqué visuellement : BEGIN -->
+            <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: Arial,sans-serif;" aria-hidden="true">
+              Texte de pre-header
+            </div>
+            <!-- Texte de pré-en-tête masqué visuellement : END -->
+            <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+              ‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;
+            </div>
+            <div style="max-width: 680px; margin: 0 auto;" class="email-container">
+              <!--[if (gte mso 9)|(IE)]>
+              <table align="center" border="0" cellspacing="0" cellpadding="0" width="680" role="presentation">
+                <tr>
+                  <td align="center" valign="top">
+                    <![endif]-->
+                  <!-- Email Body : BEGIN -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <!-- END Logo bar top -->
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;">
+                          <!--[if mso]>
+                          <v:roundrect style="mso-wrap-style:none; mso-position-horizontal: center;" arcsize="50%" fillcolor="#fff" strokecolor="#0050f0" strokeweight="1pt">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;mso-fit-shape-to-text:true">
+                              <![endif]-->
+                             <a class="btn" class="btn" href="https://www.apple.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color:#2F6CFE;font-size: 16px; font-weight: 400;text-decoration: none;padding: 5px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #ffffff;border:2px solid #2F6CFE ;">1 Leran More ygp g
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                 <!--add a class to force white color on outlook 365 darkmode-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 54px;">
+                         <!--[if mso]>
+                          <v:roundrect  style="height:52px;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" stroke="f" fillcolor="#2F6CFE ">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                              <a class="btn" href="https://www.ibm.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color: #ffffff;font-size: 16px; font-weight: 400;text-decoration: none;padding: 14px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #2F6CFE"><span class="force-white">2 eraLn oMer ygp</span>
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                  <!--add a class to force white color on outlook 365 darkmode-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 44px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:44px;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" stroke="f" fillcolor="#2F6CFE ">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://www.redhat.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color: #ffffff;font-size: 16px; line-height:16px;font-weight: 400;text-decoration: none;padding: 5px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #2F6CFE;"><span class="force-white">3  eoMr gpy laTYPt</span>
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 52px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:52px;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%"  fillcolor="#FFFFFF" strokecolor="#2F6CFE" strokeweight="2pt">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://google.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color:#2F6CFE;font-size: 16px; font-weight: 400;text-decoration: none;border:2px solid #2F6CFE;padding: 14px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #ffffff;">4 Learn Meor gpy 
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 44px;">
+                         <!--[if mso]>
+                          <v:roundrect  style="height:44px;;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" fillcolor="#FFFFFF" strokecolor="#2F6CFE" strokeweight="2pt">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                              <a class="btn" href="https://www.apple.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color:#2F6CFE;font-size: 16px; font-weight: 400;text-decoration: none;border:2px solid #2F6CFE;padding: 5px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #ffffff;">
+                                5 nraeL eMor ypg ppzzp
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!--mso-color-alt:auto on color to force white color on outlook 365 darkmode-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 54px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:52px;v-text-anchor:middle;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" stroke="f" fillcolor="#050D3A">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://google.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: 16px; font-weight: 400;text-decoration: none;color:#ffffff;mso-color-alt:auto;padding: 14px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #050D3A;">6 nrLea eroM gyp
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!--mso-color-alt:auto on color to force white color on outlook 365 darkmode-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 44px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:44px;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" stroke="f" fillcolor="#050D3A">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://www.redhat.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;font-size: 16px; font-weight: 400;text-decoration: none;color: #ffffff;mso-color-alt:auto;padding: 5px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #050D3A;">7 rnaeL rMeo gpy zz
+                              </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- !important added to color to force darker color on outook 365 dark mode + class to force black color-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 54px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:52px;;mso-wrap-style:none;mso-position-horizontal: center" alt="Button" arcsize="50%"  fillcolor="#FFFFFF" strokecolor="#050D3A" strokeweight="2pt">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://www.intel.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color: #050D3A !important;font-size: 16px; font-weight: 400;text-decoration: none;padding: 14px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #FFFFFF;border:2px solid #050D3A ;"><span class="force-black">8 areLn  roMe gyp
+                              </span></a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- !important added to color to force darker color on outook 365 dark mode + class to force black color-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 44px;">
+                          <!--[if mso]>
+                          <v:roundrect  style="height:44px;;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%" fillcolor="#FFFFFF" strokecolor="#050D3A" strokeweight="2pt" ">
+                            <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                              <![endif]-->
+                             <a class="btn" href="https://www.apple.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color: #050D3A !important;font-size: 16px; font-weight: 400;text-decoration: none;padding: 5px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: #FFFFFF ;border:2px solid #050D3A ;"><span class="force-black">9 nraeL orMe pyg</span>
+                                 </a>
+                              <!--[if mso]>
+                            </v:textbox>
+                          </v:roundrect>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!--mso-color-alt:auto on color to force white color on outlook 365 darkmode and Mc OS 365-->
+                <tr>
+                  <td align="center" valign="top" style="font-size:0;">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td style="background-color:#808080">
+                          <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                              <td align="center" valign="top" style="padding:20px 15px;mso-line-height-rule:at-least;height: 52px;">
+                                <!--[if mso]>
+                                <v:roundrect  style="height:52px;mso-wrap-style:none;mso-position-horizontal: center;" alt="Button" arcsize="50%"  fillcolor="none" strokecolor="#FFFFFF" strokeweight="2pt">
+                                  <v:textbox inset="0,0,0,0" style="v-text-anchor:middle;">
+                                    <![endif]-->
+                                   <a class="btn" href="https://www.intel.com/" style="font-family: 'Segoe UI','Roboto','Helvetica Neue',Arial,sans-serif;color: #ffffff;mso-color-alt:auto;font-size: 16px; font-weight: 400;text-decoration: none;padding: 14px 20px;  border-radius: 50px; display: inline-block; mso-padding-alt: 0;background-color: none ;border:2px solid #FFFFFF ;">10 aerLn Mero gpy
+                                    </a>
+                                    <!--[if mso]>
+                                  </v:textbox>
+                                </v:roundrect>
+                                <![endif]-->
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+
+                
+              </table>
+              <!-- Clear Spacer : END -->
+              <!--[if (gte mso 9)|(IE)]>
+          </td>
+        </tr>
+      </table>
+      <![endif]-->
+      </div>
+      <!-- Clear Spacer : END -->
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+    </center>
+  </body>
+</html>
